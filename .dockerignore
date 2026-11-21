@@ -1,0 +1,25 @@
+# Control de versiones
+.git
+.gitignore
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Secretos
+.env
+*.env
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Datos (se montan con volúmenes, no van dentro de la imagen)
+datos_ejemplo/
+salida/
+data/
+*.csv
+
+# Documentación
+README.md
